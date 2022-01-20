@@ -6,14 +6,46 @@ body {
   font-family: Helvetica, arial, sans-serif;
 }
 
+.octodex {
+  display: inline-block;
+}
+
+.octocat {
+  display: inline-block;
+  width: 30%;
+  margin: 1em;
+}
+
+.octocat img {
+  max-width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 1%;
+}
+
+.image-footer {
+  position: relative;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2em;
+}
+
+.image-caption {
+  float: right;
+  width: 100%;
+  overflow: auto;
+  min-height: 10rem;
+  max-height: 10rem;
+  min-width: 2rem;
+  text-align: right;
+}
+
+.image-number {
+  color: #cdcdcd;
+}
+
 a {
   color: black;
   font-size: 1.5rem;
   font-weight: bold;
-}
-
-li {
-  display: inline-block;
 }
 
 .authors {
@@ -22,17 +54,5 @@ li {
 
 .authors img {
   width: 1.5rem;
-}
-
-.image-caption {
-  float: right;
-}
-
-.image-footer {
-  border-bottom: solid 2px #cdcdcd;
-  padding-bottom: 2rem;
-}
-
-.image-number {
-  color: #cdcdcd;
+  /* position: fixed; */
 }
